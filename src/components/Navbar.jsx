@@ -9,7 +9,7 @@ const Navbar = () => {
     const navTween = gsap.timeline({
       scrollTrigger: {
         trigger: "nav",
-        start: "top top",       // When nav hits the top
+        start: "top 0%",       // When nav hits the top
         end: "bottom top",      // When bottom of nav hits top (scrolling up)
         scrub: true,            // Smooth scroll effect
       }

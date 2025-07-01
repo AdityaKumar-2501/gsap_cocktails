@@ -43,7 +43,7 @@ const Hero = () => {
       .to(".right-leaf", { y: 300 }, 0)
       .to(".left-leaf", { y: -300 }, 0);
 
-      const startValue = isMobile ? "top 50%" : "center 50%"
+      const startValue = isMobile ? "top 50%" : "center 60%"
       const endValue = isMobile ? "120% top" : "bottom top"
 
       const tl = gsap.timeline({
@@ -103,7 +103,7 @@ const Hero = () => {
         </div>
       </section>
 
-      <div className=" video absolute inset-0">
+      <div className="video absolute inset-0">
         <video 
           ref={videoRef}
           src="/public/videos/output.mp4"
