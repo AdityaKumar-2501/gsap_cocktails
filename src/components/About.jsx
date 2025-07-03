@@ -36,7 +36,7 @@ const About = () => {
         duration: 1,
         ease: 'power4.inOut',
         stagger: 0.03
-      }, '-=0.5')
+      }, '-=1')
       
   })
 
